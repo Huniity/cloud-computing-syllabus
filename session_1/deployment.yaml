@@ -23,3 +23,5 @@ status: {}
 
 #kubectl create deployment nginx --image nginx:alpine --replicas 2 --dry-run=client -o yaml >> session_1/deployment.yaml
 #kubectl get nodes,services
+#docker build -t k8s-3tiers:latest ./
+
